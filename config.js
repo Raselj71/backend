@@ -13,7 +13,7 @@ module.exports = {
   JWT_SECRET: "rasel",
 
   //baseURL
-  baseURL: "https://techtutorpro.com/",
+  baseURL: "https://kitmuserlive.com/",
 
   //firebase server key for send notification
   SERVER_KEY:

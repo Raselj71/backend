@@ -15,7 +15,7 @@ const checkAccessWithKey = require("../../checkAccess");
 // router.use(checkAccessWithSecretKey());
 
 //get song list
-router.get("/", checkAccessWithKey(), SongController.index);
+router.get("/",checkAccessWithKey,  SongController.index);
 
 //create song
 router.post(
